@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  top: 0;
+}
+.zeroheader_content {
+  margin-top: 6em;
+}
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #00b1c5;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+  left: 0;
+}
+.owl-nav button.owl-next {
+  right: 0;
+}
+
+.owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #a7a6a6;
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: hsl(186.35deg 100% 40.78%);
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.38) !important;
+}
+/* span {
+      font-size: 70px;    
+      position: relative;
+      top: -5px;
+  } */
+.owl-nav button:focus {
+  outline: none;
+}
+
